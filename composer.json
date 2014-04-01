@@ -1,0 +1,13 @@
+{
+    "name": "digital-canvas/piwik-tracking-api",
+    "description": "Piwik Tracking Web API",
+    "keywords": "analytics, piwik, tracking, api",
+    "homepage": "http://developer.piwik.org/api-reference/PHP-Piwik-Tracker",
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["PiwikTracker.php"],
+        "files": ["PiwikTrackerFunctions.php"]
+    }
+}
